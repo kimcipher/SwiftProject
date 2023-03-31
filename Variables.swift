@@ -12,3 +12,25 @@ var score = 0
 print(score)
 
 var year = 2023
+
+// Arithmetic operators
+
+var amount = 18.50
+
+var tip = amount * 0.2
+print(tip)
+
+// Compound Assignment Operators
+var apples = 16
+apples -= 4 // remain 12
+apples /= 2 // remain 6
+
+print(apples)
+
+// Type annotation
+// Type annotations begin with a colon : and end with a type. 
+var artist: String
+
+var book: String = "Just Kids"
+var pageCount: Int = 278
+
